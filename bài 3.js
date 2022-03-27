@@ -6,17 +6,13 @@ Output: ['John', 'Pete', 'Mary', 'Henry']
 
 Gợi ý: Có thể sử dụng spread trong mảng. [...arr] kết hợp với phương thức includes trong array method.
 */
-arr1 = ["John", "Pete", "Mary", "ManhVDb"];
-arr2 = ["Mary", "Henry", "Harry", "ManhVDb"];
+arr1 = ["John", "Pete", "Mary"];
+arr2 = ["Mary", "Henry", "Harry"];
 
-// Output: ['John', 'Pete', 'Mary', 'Henry']
-function arrFilter(arr1, arr2) {
-  for (let i = 0; i < arr2.length; i++) {
-    if (arr1.includes(arr2[i]) === false) {
-        arr1.push(arr2[i]);
-    }
-  }
-  return arr1;
-}
+// Output: ['John', 'Pete', 'Mary', '
+const newArr =  [...arrl];
+newArr.concat(arr2);
+console.log(new Set(newArr));
 
-console.log(arrFilter(arr1,arr2))
+
+const consoleArr= [new Set(newArr)];

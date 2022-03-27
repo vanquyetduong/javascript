@@ -3,10 +3,11 @@ Input: [0, 5, 4, 2, 8]
 Output: 19
 */
 
-bl:
 var array=  [0, 5, 4, 2, 8];
 var tong=0;
 for (i=0;i<array.length;i++){
     tong+=array [i];
 }
 console.log(tong);
+
+
